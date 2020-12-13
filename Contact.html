@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">    
+    <head>
+        <link rel="stylesheet" href="Apartment.css">   
+        <script type="text/javascript" src="ValidateForm.js"></script>
+    </head>
+<meta charset="utf-8"/>
+<title>Sorrento Apartments </title>
+    
+
+<body>
+<div id="wrapper">
+    <div class="logo"><a href="index.html"><img src="images/sorrento_by_the_sea_logo.jpg" alt="Logo" ></a></div>
+    <header>
+<nav>
+<ul style="list-style-type:none" >
+    <li><a href="Thingstodo.html">Things to do</a></li>
+    <li><a href="pictures.html">Photo Gallery</a></li>
+    <li><a href="Contact.html">Contact us</a></li>    
+    <li><a href="BookingCalc.html">BookingCalc</a></li> 
+      
+</ul>
+</nav>
+</header>
+
+<main>
+    <h1 style="text-align:center;" >Contact Page!</h1>
+    <div class="row">
+        <div class="column1">
+            <p><br>Sorrento apartments are the luxury getaway of your dreams!
+                <br> Call to book now! 
+                 <h1>555-1234</h1>
+                  <br>Only 1 hour away from Melbourne CBD
+                  <br>Show a victorian drivers license for 10% discount for weekends.
+                <br><a href="images/mornington-peninsula-car-rental-map.jpg">Map of Mornington Peninsula</a>
+                </p>
+
+        </div>
+
+        <div class="column2">
+     
+    <h2>Let Us Contact you!</h2>
+
+    <div  name="formPos" ><form onsubmit="return validateAll(this)" action="#" method="post" >
+        <label id="lblName" for="txtName">UserName :</label><input id="txtName" type="text" class="valid" onblur="return validateTwoDigits(this,useName_Help)" /><span id="useName_Help"></span><br />
+        <label id="lblAddress" for="txtAddress">email  </label><input id="txtAddress" type="text" class="valid" onblur="return validateEmail(this,email_Help) "/><span id="email_Help"></span><br />
+        <label id="lblPhone" for="txtPhone">Phone</label><input id="txtPhone" type="text" class="valid" onblur="return validateOnlyDigits(this,Phone_Help)" /><span id="Phone_Help"></span><br /><br />
+        <label id="lblQuery"for="query" > Your Query </label><input id="txtQuery" type="text" class="valid" onblur="return validateNonEmpty(this, Query_Help)" /><span id="Query_Help"></span><br /><br />
+        <input name="Submit1" type="submit" value="submit" /><input name="Reset1" type="reset" value="reset"/>
+    </form>
+</div>
+   
+    </div>
+</div>
+
+<div class="footer">
+    <a href="http://www.twitter.com"><img src="images/twitter_small.png" alt="twitter"></a>
+    <a href="http://www.facebook.com"><img src="images/facebook_small.png" alt="fbsmall"></a>
+    <a href="http://www.instagram.com"><img src="images/instagram_small.png" alt="insta"></a>
+    <a href="http://www.youtube.com"><img src="images/youtube-variation_small.png" alt="youtube"></a>
+    </div>
+    
+</main>
+
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,179 @@
+header {
+  position: relative;
+}
+
+.column1 {
+  width: 48%;
+  float: left;
+}
+.column2 {
+  width: 48%;
+  float: right;
+  margin: 5px;
+}
+input.valid {
+  background: #dddddd;
+}
+input.invalid {
+  background: #faa;
+}
+.logo {
+  text-align: center;
+  width: 900;
+  height: 200;
+}
+
+body {
+  background-color: antiquewhite;
+  margin: 50px 50px 50px 50px;
+  font-family: Helvetica, Calibri, Arial, sans-serif;
+  color: black;
+}
+
+li {
+  display: inline;
+}
+ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+.homeimage {
+  width: 100%;
+  height: 100%;
+}
+h1 {
+  color: #87423c;
+  font-size: 36px;
+}
+h2 {
+  color: #4d1d18;
+  font-size: 24px;
+}
+a {
+  text-decoration: none;
+  color: #4d1d18;
+  font-size: 30px;
+}
+nav:link {
+  color: #4d1d18;
+  font-size: 30px;
+  text-decoration: none;
+  color: #4d1d18;
+}
+
+content:link {
+  color: #87423c;
+}
+
+nav:hover {
+  color: #555;
+}
+
+p {
+  line-height: 150%;
+  padding: 5px;
+}
+.column {
+  width: 49%;
+  margin: 5px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.footer {
+  color: #87423c;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 1rem;
+  text-align: center;
+}
+.image1 {
+  width: 80%;
+  height: 80%;
+}
+.image2 {
+  width: 80%;
+  height: 80%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  position: center;
+}
+
+.mySlides {
+  display: none;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: center;
+  top: 0;
+}
+
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
